@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey webpage</title>
+    <link rel="stylesheet" href="style.css">
      <!-- tailwind and dasiy ui cdn -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
@@ -77,11 +78,11 @@
                     <a href="#slide4" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
-
-                  <div class="absolute bg-black bottom-0 right-0">
+<!-- 
+                  <div class="absolute bg-black rounded-lg lg:bottom-10 lg:right-10 ">
                     <h2 class="text-3xl font-extrabold text-center text-white">Meet all the heroes from the field</h2>
-                    <p class="text-white text-center pt-4">One of the best parts of my job is getting to meet amazing people who are doing amazing things. <br>Some of them are well known—but most quietly do the work of making the world better<br> without fame or recognition.</p>
-                </div>
+                    <p class="text-white text-center pt-4">One of the best parts of my job is getting to meet amazing<br> people who are doing amazing things. </p>
+                </div> -->
                 </div> 
                 <div id="slide2" class="carousel-item relative w-full">
                   <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
@@ -162,42 +163,51 @@
                 <p class="text-lg text-center pt-5">Program sections, or psects, are simply a section of code or data.<br> They are a way of grouping together parts of a program even though the source code<br> cannot be physically adjacent in the source file, or even where spread over several modules.</p>
             </div>
             <br><hr>
-            <div class="mt-10">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 ">
-                    <div class=" relative">
-                        <img src="./Images/2.png" alt="">
+
+               
+            <div class="img-contaner">
+
+              <div class="fi">
+                <div class="fix">
+                  <div class="text-contan">
+                    <h3 class="font-extrabold text-xl">Junior Program</h3>
+                    <p class="text-sm">Teen programs, designed specifically for ages 13-18, provide meaningful<br> experiences today.</p>
+                    <button class="bt-n">Register Now!</button>
+                  </div>
+                  <div>
+                    <img src="./Images/2.png">
+                  </div>
+                   
+  
+                  <div class="fix">
+                    <div class="text2-contan">
+                      <h3 class="font-extrabold text-xl">Teenager Program</h3>
+                      <p class="text-sm">Teen programs, designed specifically <br>for ages 13-18, provide meaningful<br> experiences today.</p>
+                      <button class="bt-n">Register Now!</button>
                     </div>
-                    <div class="absolute ml-10 mt-40 ">
-                        <h3 class=" text-white text-center">Junior Program</h3>
-                        <p></p>
-                        <button class="btn bg-red-600 text-white">Register Now!</button>
-                    </div>
+  
                     <div>
-                        <div class="relative">
-                            <img src="./Images/3.png" alt="">
-                        </div>
-
-                        <div>
-                            <div class="absolute ml-10 mt-40 ">
-                                <h3 class=" text-white text-center">Junior Program</h3>
-                                <p></p>
-                        <button class="btn bg-red-600 text-white">Register Now!</button>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    <div class="lg:col-span-12  lg:mt-2 relative">
-                        <img  src="./Images/4.png" alt="">
-                    </div>
+                      <img src="./Images/2.png">
+                  </div>
+                  </div>
+                 
+               
                 </div>
-    
-                    <!-- <div class="lg:col-span-12 lg:ml-40 lg:mt-2 relative">
-                        <img  src="./Images/4.png" alt="">
-                    </div> -->
+              </div>
+              
 
+              <div class="fx">
+
+                <div class="pic">
+                  <h3 class="font-extrabold text-xl">Professional Program</h3>
+                      <p class="text-sm">Teen programs, designed specifically <br>for ages 13-18, provide meaningful<br> experiences today.</p>
+                      <button class="bt-n">Register Now!</button>
                 </div>
+                <div>
+                  <img class="img" src="./Images/3.png">
                 </div>
+              </div>
+              
             </div>
             
 

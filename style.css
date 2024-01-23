@@ -1,0 +1,53 @@
+.fix{
+    display: flex;
+   gap: 10px;
+   position: relative;
+}
+.text-contan{
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text2-contan{
+    position: absolute;
+    color: white;
+   margin-right: 200px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+.bt-n{
+    background-color: red;
+    border-radius: 10px;
+    border-color: red;
+    padding: 6px;
+}
+.img{
+    /* margin-left: 10px; */
+    width: 76%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.fx{
+    position: relative;
+}
+.pic{
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .fix, .img{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+        height: 300px;
+    }
+}
