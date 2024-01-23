@@ -1,21 +1,25 @@
-.fix{
+.program-contaner{
     display: flex;
-   gap: 10px;
-   position: relative;
+     gap: 10px;
+   
+}
+#program-section{
+    position: relative;
+}
+.program-contan{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+#text-program{
+    position: relative;
 }
 .text-contan{
     position: absolute;
-    color: white;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 150px;
 }
-.text2-contan{
-    position: absolute;
-    color: white;
-   margin-right: 200px;
-   margin-left: 10px;
-   margin-top: 10px;
-}
+
 
 .bt-n{
     background-color: red;
@@ -36,8 +40,8 @@
 .pic{
     position: absolute;
     color: white;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 300px;
 }
 .product-container{
     margin-top: 20px;
@@ -70,7 +74,7 @@
 
 
 @media screen and (max-width:576px) {
-    .fix, .img, .contan, .contan1, .contan2{
+    .program-contaner, .img, .contan, .contan1, .contan2{
         flex-direction: column;
     }
     .img{
@@ -80,6 +84,13 @@
     .contan-chil-1{
         flex-direction: column;
     }
-  
-   
+    .pic{
+        margin-top: 150px;
+    }
+    .program-contan{
+        margin-top: 50px;
+    }
+    .text-contan{
+        margin-top: 80px; 
+    }
 }
